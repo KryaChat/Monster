@@ -4,7 +4,7 @@ export class Monster {
   public color: string = 'red';
   public alive: boolean = true;
 
-  protected eyeCount: number = 2;
+  protected eyeCount: number = 3;
 
   constructor(colorParam?: string) {
     this.color = colorParam;
